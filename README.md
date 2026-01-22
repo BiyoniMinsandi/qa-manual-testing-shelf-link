@@ -45,3 +45,7 @@ This repository contains manual testing artifacts created to demonstrate QA skil
 - Practiced professional handling of blocked test execution
 - Created detailed bug reports
 - Gained real-world QA documentation experience
+
+---
+Documentation updated as part of QA portfolio improvement.
+
