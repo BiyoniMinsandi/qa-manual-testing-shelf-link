@@ -88,7 +88,7 @@ qa-manual-testing-shelf-link/
 6. **No Automation**: All tests are manual, which limits regression test frequency
 
 ### Application Limitations (Known Issues):
-1. **Session Management**: Intermittent session timeout issues during login (see BUG-001)
+1. **Session Management**: Intermittent session timeout issues during login (see BUG-001 in `04_Bug-Reports/`)
 2. **Search Performance**: Search becomes slow with large book collections (500+ books)
 3. **File Upload Size**: Profile picture upload limited to 2MB
 4. **Browser Compatibility**: Minor UI inconsistencies in older browser versions

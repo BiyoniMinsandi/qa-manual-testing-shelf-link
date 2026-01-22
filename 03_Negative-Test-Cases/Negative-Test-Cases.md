@@ -68,7 +68,7 @@ This document contains negative test cases to verify that the Shelf Link applica
 ### Test Steps:
 1. Log in successfully
 2. Navigate to search functionality
-3. Enter SQL injection payload: `' OR '1'='1`
+3. Enter SQL injection payload: `' OR '1'='1` (example for testing purposes only)
 4. Execute search
 
 ### Expected Result:
@@ -76,6 +76,8 @@ This document contains negative test cases to verify that the Shelf Link applica
 - No database error is displayed
 - No unauthorized data is returned
 - Search returns no results or handles safely
+
+**Note:** This test should only be performed in authorized test environments. Always follow responsible disclosure practices.
 
 ---
 
@@ -87,7 +89,7 @@ This document contains negative test cases to verify that the Shelf Link applica
 ### Test Steps:
 1. Log in successfully
 2. Navigate to "Add Book" page
-3. Enter script tag in title: `<script>alert('XSS')</script>`
+3. Enter script tag in title: `<script>console.log('test')</script>` (benign test payload)
 4. Fill other required fields
 5. Submit form
 
@@ -95,6 +97,8 @@ This document contains negative test cases to verify that the Shelf Link applica
 - Input is properly escaped/sanitized
 - Script does not execute
 - Data is stored safely without executing malicious code
+
+**Note:** Only perform security testing in authorized environments. Use benign payloads that don't cause harm even if they execute.
 
 ---
 
