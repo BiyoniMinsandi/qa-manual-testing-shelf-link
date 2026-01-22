@@ -34,7 +34,7 @@ The following test scenarios are designed based on functional requirements and e
 
 ---
 
-## ESL Label Update (If Supported)
+## ESL Label Update 
 16. Verify price update triggers ESL label update  
 17. Verify system handles ESL update failure gracefully  
 
