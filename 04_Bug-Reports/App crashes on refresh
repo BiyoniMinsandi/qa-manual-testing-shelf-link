@@ -1,0 +1,19 @@
+Title: App crashes on refresh
+
+Environment: 
+Web app, Chrome, Windows 
+
+Steps to Reproduce: 
+
+Click refresh 
+
+Expected Result: 
+The app refreshes and show the page that was before refresh
+
+Actual Result: 
+App crashes after click refresh
+
+Severity:High
+Priority: Medium
+
+ 
