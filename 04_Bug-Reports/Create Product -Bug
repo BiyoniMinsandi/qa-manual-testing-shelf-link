@@ -1,0 +1,23 @@
+
+Title: Can't add a new product to the system with valid data
+
+Environment: 
+Web app, Chrome, Windows 
+
+Steps to Reproduce: 
+
+Go to Product page
+Click Add Product button
+Fill the add product form with valid data
+Click Save button
+
+Expected Result: 
+User can see newly added product
+
+Actual Result: 
+A new product is not added to the system
+
+Severity: High
+Priority: High 
+
+ 
