@@ -1,0 +1,20 @@
+Title: Validation message missing for empty field when keep price of a product(which is essential) when adding a product to the system.
+
+Environment: 
+Web app, Chrome, Windows 
+
+Steps to Reproduce: 
+
+Go to Product page
+Click Add Product button
+Fill the form by keeping empty the price fied
+Then click Save
+Shows an error saying unable to add a product
+
+Expected Result: 
+A validation message showing to fill the empty field
+Actual Result: 
+Only showing that product can't be created making it difficult find the exact issue
+
+Severity: High
+Priority: High 
