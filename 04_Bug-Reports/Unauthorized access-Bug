@@ -1,0 +1,21 @@
+Title: Manager can change system settings which should be only have access to admin.
+Environment: 
+Web app, Chrome, Windows 
+
+Steps to Reproduce: 
+
+Login as a Manager
+Go to the settings page
+Click system settings
+Change System settings like access of users.
+
+Expected Result: 
+Proviving an error msg showing the manager is not allowed to change system settings
+
+Actual Result: 
+Manager can successfully change the system settings 
+
+Severity: Critical 
+Priority: High 
+
+ 
